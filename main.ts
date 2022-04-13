@@ -5,7 +5,7 @@ led.plotBrightness(2, 2, 127)
 led.plot(bod1[0], bod1[1])
 led.plot(bod2[0], bod2[1])
 basic.pause(500)
-basic.forever(function Spain_without_the_A() {
+basic.forever(function Spin() {
     spin_right()
     spin_down()
     spin_left()

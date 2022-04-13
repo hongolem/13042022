@@ -6,12 +6,12 @@ led.plot(bod1[0], bod1[1])
 led.plot(bod2[0], bod2[1])
 basic.pause(500)
 
-def Spain_without_the_A():    
+def Spin():    
     spin_right()
     spin_down()
     spin_left()
     spin_up()
-basic.forever(Spain_without_the_A)
+basic.forever(Spin)
 
 def spin_right():
     global i, bod1, bod2
